@@ -50,6 +50,21 @@ import pandas as pd
 #  ca: number of major vessels (0-3) colored by flourosopy
 #  thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 # example : [57,1,3,170,288,0,0,159,0,0.2,1,0,3]
+# { 
+#  "age":57,
+# "sex":1,
+# "cp":3,
+# "trestbps":170,
+# "chol":288,
+# "fbs":0,
+# "restecg":0,
+# "thalach":159,
+# "exang":0,
+# "oldpeak":0.2,
+# "slope":1,
+#  "ca":0,
+# "thal":3
+# }
 @api_view(["POST"])
 def IdealWeight(heartdata):
     try:
